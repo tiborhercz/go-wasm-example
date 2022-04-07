@@ -2,6 +2,8 @@
 
 Here you will find a simple Go WebAssembly Example. Showing you how to use Go to compile a `.wasm` file and run Go functions in the browser.
 
+In this example a SHA512 hash is created with WebAssembly using the value from the input field found in the HTML.
+
 ## How to run it
 
 Compile the `.wasm` file
