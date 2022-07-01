@@ -27,3 +27,6 @@ go run ./cmd/webserver/main.go
 Navigate to: [http://localhost:3000/index.html](http://localhost:3000/index.html)
 
 Here you will find an input field, which hashes the text with a SHA512 hash using the Go WebAssembly code. Found in `cmd/wasm/main.go`
+
+# Blog post
+[Blog post: Golang WebAssembly](https://tiborhercz.com/posts/golang-webassembly/)
