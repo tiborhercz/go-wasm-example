@@ -1,6 +1,6 @@
 # Go WebAssembly Example
 
-Here you will find a simple Go WebAssembly Example. Showing you how to use Go to compile a `.wasm` file and run Go functions in the browser.
+Here you will find a simple Go WebAssembly Example. Showing you how to use Go to compile a `.wasm` file and run Go functions in the browser. Do you want more detail [read my Blog here](https://tiborhercz.com/posts/golang-webassembly/)
 
 In this example a SHA512 hash is created with WebAssembly using the value from the input field found in the HTML.
 
@@ -27,6 +27,3 @@ go run ./cmd/webserver/main.go
 Navigate to: [http://localhost:3000/index.html](http://localhost:3000/index.html)
 
 Here you will find an input field, which hashes the text with a SHA512 hash using the Go WebAssembly code. Found in `cmd/wasm/main.go`
-
-# Blog post
-[Blog post: Golang WebAssembly](https://tiborhercz.com/posts/golang-webassembly/)
